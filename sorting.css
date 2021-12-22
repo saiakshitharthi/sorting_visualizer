@@ -1,0 +1,45 @@
+td{
+    width: 3cm;
+    height: 3cm;
+    background-color:black;
+    color: blanchedalmond;
+    border: 1mm ;
+    font-size: 1.5cm;
+    text-align: center;
+    border-radius: 1.5cm;
+    transition: opacity 1s, background-color 1s;
+    
+    
+}
+th{
+    width: 3cm;
+    height: 3cm;
+    font-size: 1cm;
+    text-align: center;
+}
+table{
+    
+    margin: auto;
+}
+/* body{
+    background-image: url(https://thumbs.dreamstime.com/z/seamless-illustration-formulas-charts-topic-mathematics-education-background-light-marker-blue-background-84279961.jpg);
+    
+} */
+#heading{
+
+
+    font-family: aileron, sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+    color: black;
+    
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5cm;
+
+}
+#homepagelink{
+    transition: all 0.5s;
+}

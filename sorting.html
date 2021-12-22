@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link rel="stylesheet" href="sorting.css">
+        <link rel="stylesheet" href="https://use.typekit.net/ycc2uzo.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <div id = "mainbody" class="container">
+            
+            
+            
+            
+            <h1 id="heading">Sorting Visualizer</h1>
+           
+            
+            
+            <div class="form-group">
+                <label  for="exampleInputEmail1"><h2><strong>Value of the element</strong></h2></label>
+                <input id="addvalue" type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter an integer value" >
+                <br>
+                
+
+                <button id="addbutton" onclick="add()"type="button" class="btn btn-success">Add!</button>
+                <button onclick="deleteElem()"type="button" class="btn btn-danger">Pop!</button>
+                <button onclick="clearArr()" type="button" class="btn btn-warning">Clear!</button>
+
+                <br>
+                <br>
+
+                <button onclick="bubbleSort()" type="button" class="btn btn-secondary">Bubble Sort</button>
+                
+                <!-- <button type="button" class="btn btn-primary">Insertion Sort</button> -->
+                
+
+                
+            </div> 
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1 id="headingprompt"></h1>
+            <table id="array">
+                
+                <tr id = "tablerows">
+                    
+                </tr>
+                
+                
+            </table>
+            <table id="indices">
+                
+                <tr id = "positions">
+                    
+                    
+                    
+                </tr>
+                
+            </table>
+            
+            
+            <h3 align="center" id = "homepagelink">Home page Link!</h3>
+
+            
+            
+            <script src="sorting.js"></script>
+        </div>
+    </body>
+</html>

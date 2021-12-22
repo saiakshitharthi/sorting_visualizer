@@ -1,0 +1,33 @@
+
+#wholebody{
+    transition: background-color 2s;
+}
+
+#heading2{
+    
+    
+    font-family: 'Smooch', cursive;    
+
+}
+#heading1{
+    transition: color 2s;
+    font-family: 'Inconsolata', monospace;
+}
+/* #V{
+    transition: font-size 2s,transform 2s;
+    
+} */
+.individual{
+    transition: all 0.5s;
+}
+.mainheading{
+    transition: all 0.5s;
+}
+#startbutton{
+    transition: all 0.5s;
+    color:white;
+}
+#helpbutton{
+    transition: all 0.5s;
+    color:white;
+}
