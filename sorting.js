@@ -15,7 +15,7 @@ homepage.addEventListener("mouseleave",function(){
 homepage.addEventListener("click",function(){
     
 
-    window.location.href = "animationpage.html";
+    window.location.href = "index.html";
 
 })
 function addcell(val){
