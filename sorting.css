@@ -42,4 +42,5 @@ table{
 }
 #homepagelink{
     transition: all 0.5s;
+    cursor: pointer;
 }

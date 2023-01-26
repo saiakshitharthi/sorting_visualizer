@@ -19,6 +19,7 @@
 } */
 .individual{
     transition: all 0.5s;
+    cursor: pointer;
 }
 .mainheading{
     transition: all 0.5s;
@@ -26,8 +27,10 @@
 #startbutton{
     transition: all 0.5s;
     color:white;
+    cursor: pointer;
 }
 #helpbutton{
     transition: all 0.5s;
     color:white;
+    cursor: pointer;
 }

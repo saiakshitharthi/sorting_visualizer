@@ -3,18 +3,17 @@ var homepage = document.getElementById("homepagelink")
 homepage.addEventListener("mouseover",function(){
     
 
-    this.style.fontSize = "2cm"
+    this.style.fontSize = "1cm"
     
 
 })
 homepage.addEventListener("mouseleave",function(){
     
 
-    this.style.fontSize = "1cm"
+    this.style.fontSize = "0.75cm"
 })
 homepage.addEventListener("click",function(){
     
-
     window.location.href = "index.html";
 
 })
